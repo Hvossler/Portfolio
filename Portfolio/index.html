@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry Vossler - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Henry Vossler</h1>
+        <p>Test Engineer | M.S. Materials Science and Engineering</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Bio</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Graduate student researcher at UC San Diego's Solar Energy Innovation Laboratory.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article class="project-card">
+                <h3>Pseudo Current-Voltage (p-JV) Testing System</h3>
+                <p>Engineered a pseudo-JV characterization system for solar cells using LDC500 Series Laser Diode Controller and Keithly 2001 Multimeter. Developed control software and data analysis tools in Python.</p>
+                <div class="image-container">
+                    <img src="pjv.png" alt="Pseudo-JV analysis visualization">
+                </div>
+                <p>This is an example of an experiment testing the effect of lead iodide excess in solution on perovskite solar cells. By simulating the measurement of a JV curve at open circuit, this technique helped quantify series resistance losses at the maximum power point when used alongside JV data.</p>
+            </article>
+
+            <article class="project-card">
+                <h3>Photoluminescence Quantum Yield (PLQY) Measurement System</h3>
+                <p>Developed and automated a PLQY characterization system for semiconductor materials using various tools and controllers. Also wrote control software and data analysis tools in Python.</p>
+                <div class="image-container">
+                    <img src="Voc_1Sun.png" alt="Visualization of Implied Voltage">
+                </div>
+                <p>This technique was vital for quantifying efficiency losses and comparing various experimental conditions, materials, and processing methods of solar cells.</p>
+                <div class="image-container">
+                    <img src="iJV_filtered.png" alt="Implied-JV analysis example">
+                </div>
+                <p>Calculated implied JV curves of solar cells at all stages of development (absorber layer, absorber + charge transport materials, complete cell).</p>
+
+            </article>
+
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Reach out to me at: <a href="mailto:hmvossler@gmail.com">hmvossler@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Henry Vossler</p>
+    </footer>
+
+</body>
+</html>
